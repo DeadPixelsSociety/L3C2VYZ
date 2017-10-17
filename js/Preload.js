@@ -16,6 +16,7 @@ Jeu.Preload.prototype = {
     /*
      * Ajouter ici les ressources à charger
      */
+    this.load.image('perso', 'assets/personnage.png');
     //this.load.image('clé', 'chemin/vers/image.png');
     //this.load.spritesheet('clé', 'chemin/vers/spritesheet.png', tailleFrameWidth, tailleFrameHeight);
     //this.load.audio('clé', 'chemin/vers/audio[.ogg|.mp3]');

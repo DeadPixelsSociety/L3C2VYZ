@@ -6,5 +6,6 @@ Jeu.MainMenu.prototype = {
     var style = {font: "30px Arial", fill: "#fff", align: "center"};
     var t = this.game.add.text(this.game.width/2, this.game.height/2, text, style);
     t.anchor.set(0.5);
+    Jeu.game.state.start('niveau0');
   }
 };
